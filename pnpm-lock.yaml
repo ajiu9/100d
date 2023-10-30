@@ -14,6 +14,7 @@ specifiers:
   '@vue/test-utils': ^2.4.1
   '@vueuse/core': ^10.5.0
   '@vueuse/head': ^2.0.0
+  commonuse: ^1.0.3
   critters: ^0.0.20
   cross-env: ^7.0.3
   cypress: ^13.3.1
@@ -59,6 +60,7 @@ dependencies:
   '@unocss/reset': 0.56.5
   '@vueuse/core': 10.5.0_vue@3.3.7
   '@vueuse/head': 2.0.0_vue@3.3.7
+  commonuse: 1.0.3
   nprogress: 0.2.0
   pinia: 2.1.7_typescript@5.2.2+vue@3.3.7
   vue: 3.3.7_typescript@5.2.2
@@ -116,6 +118,10 @@ packages:
     resolution: {integrity: sha512-1Yjs2SvM8TflER/OD3cOjhWWOZb58A2t7wpE2S9XfBYTiIl+XFhQG2bjy4Pu1I+EAlCNUzRDYDdFwFYUKvXcIA==}
     engines: {node: '>=0.10.0'}
     dev: true
+
+  /@ajiu9/shared/1.0.3:
+    resolution: {integrity: sha512-ZbeHq4ukB2LiuGUs6HCZF3znCKvtxvgpD7miawWR/pnbyGXqiRULTmQPgxvnTLGfXgnxYTUOFSY1jpXG+erFtQ==}
+    dev: false
 
   /@ampproject/remapping/2.2.1:
     resolution: {integrity: sha512-lFMjJTrFL3j7L9yBxwYfCq2k6qqwHyzuUl/XBnif78PWTJYyL/dfowQHWE3sp6U6ZzqWiiIZnpTMO96zhkjwtg==}
@@ -4268,6 +4274,12 @@ packages:
     resolution: {integrity: sha512-gk/Z852D2Wtb//0I+kRFNKKE9dIIVirjoqPoA1wJU+XePVXZfGeBpk45+A1rKO4Q43prqWBNY/MiIeRLbPWUaA==}
     engines: {node: '>=4.0.0'}
     dev: true
+
+  /commonuse/1.0.3:
+    resolution: {integrity: sha512-kI6EVVRcg3Vnkkl8jnFoX9zpdx28uuqDZXsCj3fkY73AMb6sANoUHWTmXFm4061KU10MPMjXpoRX+o/mNkNbAQ==}
+    dependencies:
+      '@ajiu9/shared': 1.0.3
+    dev: false
 
   /compressible/2.0.18:
     resolution: {integrity: sha512-AF3r7P5dWxL8MxyITRMlORQNaOA2IkAFaTr4k7BUumjPtRpGDTZpl0Pb1XCO6JeDCBdp126Cgs9sMxqSjgYyRg==}
